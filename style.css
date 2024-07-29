@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* TopArea Design Started Here*/
+header{
+    background-color: #149777;
+    height: 250px;
+}
+.topArea{
+    width: 80%;
+    margin: 0 auto;
+}
+.topArea a{
+    text-decoration: none;
+    color: white;
+}
+.leftArea{
+    grid-area: left1;
+}
+.middleArea{
+    grid-area: middle1;
+}
+.rightArea{
+    grid-area: right1;
+}
+.topArea{
+    display: grid;
+    grid-template-areas: 
+        'left1 middle1 right1'
+    ;
+}
+.leftArea img{
+    float: left;
+    height: 110px;
+    margin-top: -15px;
+}
+.allAds{
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-top: 22px;
+    margin-left: -22px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.bangla{
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-top: 26px;
+    margin-left: 20px;
+    font-size: 17px;
+    border: 1px solid #257467;
+    padding: 5px 13px;
+    border-radius: 6px;
+}
+.chat{
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-top: 22px;
+    font-size: 17px;
+    margin-left: 190px;
+}
+.chat span, .login span{
+    margin-left: 10px;
+}
+.chat i, .login i{
+    font-size: 20px;
+}
+.login , .post{
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-top: 22px;
+    font-size: 17px;
+}
+#pp{
+    background-color: #FFC800;
+    color: #673500;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: right;
+    margin-right: 70px;
+    font-size: 15px;
+    border-radius: 7px;
+    padding: 12px 15px;
+}
+.login img{
+    height: 28px;
+    margin-top: -3px;
+}
+.login span{
+    display: block;
+    float: right;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+/* TopArea Design Ended Here*/
+/* BottomArea Design Started Here*/
+.bottomArea{
+    text-align: center;
+}
+.location{
+    width: 180px;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 17px;
+    background-color: #10846F;
+    border-radius: 20px;
+}
+.location img{
+    height: 20px;
+}
+.location span{
+    display: block;
+    float: right;
+    margin-top: 1px;
+    padding-right: 15px;
+}
+.location a{
+    text-decoration: none;
+    color: white;
+}
+.search{
+    margin-top: 30px;
+    position: relative;
+}
+.search input{
+    padding: 15px;
+    width: 60%;
+    border-radius: 20px;
+    border: none;
+}
+.search input:focus{
+    outline: none;
+}
+.search img{
+    height: 25px;
+    position: absolute;
+    top: 13px;
+    left: 77%;
+    cursor: pointer;
+}
