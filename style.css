@@ -144,3 +144,36 @@ header{
     left: 77%;
     cursor: pointer;
 }
+/* BottomArea Design Ended Here*/
+/* Category Design Started Here */
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+.cat{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.container img{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 0px 20px 10px 10px;
+}
+.container{
+    width: 25%;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+}
+.container p{
+    font-size: 17px;
+    padding: 4px;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
