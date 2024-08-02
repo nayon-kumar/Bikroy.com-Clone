@@ -177,6 +177,10 @@ main{
     justify-content: center;
     margin-bottom: 50px;
 }
+.card h3{
+    font-size: 20px;
+    margin: 15px 0px;
+}
 /* Category Design Ended Here */
 /* Card Design Started Here */
 .card{
@@ -227,4 +231,149 @@ main{
     grid-template-areas: 
         'c1 c2'
     ;
+}
+/* Card Design Ended Here */
+/* Quick Link Design Started Here */
+.ql{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.link1{
+    grid-area: l1;
+}
+.link2{
+    grid-area: l2;
+}
+.link3{
+    grid-area: l3;
+}
+.link4{
+    grid-area: l4;
+}
+.quickLink{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: 
+        'l1 l2 l3 l4'
+    ;
+}
+.link1, .link2, .link3, .link4{
+    background-color: #F3F6F5;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.quickLink a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.quickLink h4{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.textDiv{
+    text-align: justify;
+}
+.textDiv p{
+    font-size: 17px;
+}
+.aa{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+/* Quick Link Design Ended Here */
+/* Footer design started here */
+footer{
+    background-color: #F3F6F5;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+.div1{
+    grid-area: d1;
+}
+.div2{
+    grid-area: d2;
+}
+.div3{
+    grid-area: d3;
+}
+.div4{
+    grid-area: d4;
+}
+.div5{
+    grid-area: d5;
+}
+.footerContainer{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-areas:
+        'd1 d2 d3 d4 d5'
+    ;
+}
+.footerContainer h4{
+    margin-bottom: 20px;
+}
+.footerContainer a{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+.idiv{
+    margin-top: 15px;
+}
+.idiv img{
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+.idiv2 img{
+    width: 150px;
+    margin-bottom: -35px;
+}
+.idiv3 img{
+    height: 30px;
+    width: 30px;
+}
+.idiv3 span{
+    display: block;
+    margin-top: -30px;
+    margin-left: 35px;
+}
+.idiv3{
+    margin-top: -15px;
+    margin-left: 35px;
+}
+.other{
+    margin-top: 25px;
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.footerArea{
+    width: 80%;
+    margin: 0 auto;
+    content: '';
+    display: block;
+    overflow: hidden;
+}
+.footerArea p{
+    float: left;
+    font-size: 17px;
+}
+.footerArea img{
+    float: right;
+    margin-top: -10px;
 }
