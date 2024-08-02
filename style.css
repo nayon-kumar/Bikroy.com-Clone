@@ -129,9 +129,9 @@ header{
     position: relative;
 }
 .search input{
-    padding: 15px;
+    padding: 18px;
     width: 60%;
-    border-radius: 20px;
+    border-radius: 35px;
     border: none;
 }
 .search input:focus{
@@ -140,7 +140,7 @@ header{
 .search img{
     height: 25px;
     position: absolute;
-    top: 13px;
+    top: 15px;
     left: 77%;
     cursor: pointer;
 }
@@ -176,4 +176,55 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 50px;
+}
+/* Category Design Ended Here */
+/* Card Design Started Here */
+.card{
+    border: 0.1px solid #d4ded9;
+    box-shadow: 0.1px 0.1px 5px #e6e9e7;
+    padding: 20px;
+    border-radius: 5px;
+}
+.card p{
+    font-size: 17px;
+}
+.card img{
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+.card a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+.card1 a{
+    display: inline-block;
+    color: #673500;
+    background-color: #FFC800;
+    padding: 8px 40px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.card2 a{
+    display: inline-block;
+    background-color: #0074BA;
+    color: white;
+    padding: 8px 40px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.card1{
+    grid-area: c1;
+}
+.card2{
+    grid-area: c2;
+}
+.cardContainer{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+        'c1 c2'
+    ;
 }
