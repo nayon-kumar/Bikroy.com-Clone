@@ -177,12 +177,13 @@ main{
     justify-content: center;
     margin-bottom: 50px;
 }
-.card h3{
-    font-size: 20px;
-    margin: 15px 0px;
-}
+
 /* Category Design Ended Here */
 /* Card Design Started Here */
+.card h3{
+    font-size: 17px;
+    margin: 15px 0px;
+}
 .card{
     border: 0.1px solid #d4ded9;
     box-shadow: 0.1px 0.1px 5px #e6e9e7;
@@ -190,7 +191,7 @@ main{
     border-radius: 5px;
 }
 .card p{
-    font-size: 17px;
+    font-size: 16px;
 }
 .card img{
     height: 150px;
@@ -199,7 +200,7 @@ main{
 }
 .card a{
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
 }
 .card1 a{
@@ -238,6 +239,7 @@ main{
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 10px;
+    font-size: 17px;
 }
 .link1{
     grid-area: l1;
@@ -267,21 +269,22 @@ main{
 .quickLink a{
     text-decoration: none;
     color: black;
-    font-size: 17px;
+    font-size: 16px;
 }
 .quickLink h4{
-    font-size: 18px;
+    font-size: 17px;
     padding-bottom: 15px;
 }
 .textDiv{
     text-align: justify;
 }
 .textDiv p{
-    font-size: 17px;
+    font-size: 16px;
 }
 .aa{
     margin-top: 30px;
     margin-bottom: 15px;
+    font-size: 17px;
 }
 /* Quick Link Design Ended Here */
 /* Footer design started here */
@@ -321,11 +324,12 @@ footer a{
 }
 .footerContainer h4{
     margin-bottom: 20px;
+    font-size: 17px;
 }
 .footerContainer a{
     display: block;
     margin-bottom: 15px;
-    font-size: 17px;
+    font-size: 16px;
 }
 .idiv{
     margin-top: 15px;
@@ -371,7 +375,7 @@ hr{
 }
 .footerArea p{
     float: left;
-    font-size: 17px;
+    font-size: 16px;
 }
 .footerArea img{
     float: right;
